@@ -47,6 +47,11 @@ yarn dev
 
 This starts your app in development mode, rebuilding assets on file changes.
 
+### Manage dependencies
+
+ 
+ [learn more how to manage dependencies for Remix projects using Deno](https://github.com/remix-run/remix/blob/main/decisions/0001-use-npm-to-manage-npm-dependencies-for-deno-projects.md).
+
 ### Type hints
 
 This template provides type hinting to VS Code via a
@@ -137,7 +142,3 @@ npm run deploy
 #or
 yarn deploy
 ```
-
-## References
-
-Manage dependencies - [learn more how to manage dependencies for Remix projects using Deno](https://github.com/remix-run/remix/blob/main/decisions/0001-use-npm-to-manage-npm-dependencies-for-deno-projects.md).
