@@ -1,5 +1,5 @@
 {
-  "importMap": "import_map.json",
+  "importMap": "./.vscode/resolve_npm_imports_in_deno.json",
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "dom.asynciterable", "deno.ns"]
   }
