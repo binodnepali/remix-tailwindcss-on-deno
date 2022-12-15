@@ -1,4 +1,4 @@
-import type { MetaFunction } from "@remix-run/deno";
+import type { MetaFunction } from '@remix-run/deno';
 import {
   Links,
   LiveReload,
@@ -6,18 +6,20 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "@remix-run/react";
-import * as React from "react";
+} from '@remix-run/react';
+import * as React from 'react';
+
+import styles from './styles/app.css';
 
 export const meta: MetaFunction = () => ({
-  charset: "utf-8",
-  title: "New Remix App",
-  viewport: "width=device-width,initial-scale=1",
+  charset: 'utf-8',
+  title: 'New Remix App',
+  viewport: 'width=device-width,initial-scale=1',
 });
 
 export default function App() {
   return (
-    <html lang="en">
+    <html lang='en'>
       <head>
         <Meta />
         <Links />
@@ -30,4 +32,8 @@ export default function App() {
       </body>
     </html>
   );
+}
+
+export function links() {
+  return [{ rel: 'stylesheet', href: styles }];
 }
