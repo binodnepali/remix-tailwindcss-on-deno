@@ -1,6 +1,6 @@
-# Remix + Deno
+# Remix + Tailwindcss + Deno
 
-An example with [Deno](https://deno.land/) template for [Remix](https://remix.run/docs).
+An example with [Tailwindcss](https://tailwindcss.com/) & [Deno](https://deno.land/) template for [Remix](https://remix.run/docs).
 
 ## Before getting started
 
@@ -16,15 +16,15 @@ You can setup this project using npm or yarn package managers.
 ### Clone repo
 
 ```sh
-git clone https://github.com/binodnepali/remix-on-deno.git
+git clone https://github.com/binodnepali/remix-tailwindcss-on-deno.git
 #or
-git clone git@github.com:binodnepali/remix-on-deno.git
+git clone git@github.com:binodnepali/remix-tailwindcss-on-deno.git
 ```
 
 ### Navigate to cloned repo
 
 ```sh
-cd remix-on-deno
+cd remix-tailwindcss-on-deno
 ```
 
 ### Install dependencies
